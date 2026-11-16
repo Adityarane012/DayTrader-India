@@ -1,0 +1,23 @@
+{
+  "name": "day-trader-india",
+  "description": "9 Claude skills for day trading on the NSE: scan the Nifty charts, track breaking news, time every entry and exit, and replay every outcome before you risk a rupee.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jake Schincariol (upstream)",
+    "url": "https://opusjake.ai"
+  },
+  "homepage": "https://github.com/Adityarane012/DayTrader-India",
+  "repository": "https://github.com/Adityarane012/DayTrader-India",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "day-trading",
+    "nse",
+    "nifty",
+    "india",
+    "opening-range-breakout",
+    "paper-trading"
+  ],
+  "skills": "./"
+}

@@ -1,0 +1,12 @@
+{
+  "created_by": "test",
+  "status": "proposed",
+  "note": "Five whole-share buys at Nov 13 2026 NSE closes (RELIANCE 1339.70, TCS 2407.50, INFY 1141.50, ITC 285.00, SBIN 1080.00), no stops: for the long-term checks with the day-trade checks off.",
+  "orders": [
+    {"symbol": "RELIANCE.NS", "side": "buy", "qty": "14", "type": "market", "time_in_force": "day"},
+    {"symbol": "TCS.NS", "side": "buy", "qty": "8", "type": "market", "time_in_force": "day"},
+    {"symbol": "INFY.NS", "side": "buy", "qty": "17", "type": "market", "time_in_force": "day"},
+    {"symbol": "ITC.NS", "side": "buy", "qty": "70", "type": "market", "time_in_force": "day"},
+    {"symbol": "SBIN.NS", "side": "buy", "qty": "11", "type": "market", "time_in_force": "day"}
+  ]
+}

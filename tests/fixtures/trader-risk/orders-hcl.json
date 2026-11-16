@@ -1,0 +1,36 @@
+{
+  "created_by": "trader-budget",
+  "created_at": "2026-11-13T04:06:00Z",
+  "status": "proposed",
+  "paper": true,
+  "note": "Proposals only. Nothing is placed until trader-risk passes each order and you say yes to it in the chat.",
+  "source": "trader/plan.json (HCLTECH.NS orb 2026-11-13)",
+  "orders": [
+    {
+      "symbol": "HCLTECH.NS",
+      "side": "buy",
+      "qty": "5",
+      "type": "market",
+      "time_in_force": "day",
+      "order_class": "bracket",
+      "take_profit_limit_price": "1399.00",
+      "stop_loss_stop_price": "1377.40",
+      "why": "opening-range breakout on HCLTECH.NS: 5 shares, bound by your position cap (5 x 7.20 = Rs 36 at the stop, Rs 40.08 with costs)",
+      "plan": {
+        "entry": 1384.6,
+        "stop": 1377.4,
+        "target": 1399.0,
+        "risk_per_share": 7.2,
+        "max_loss": 40.08,
+        "gross_loss": 36.0,
+        "costs_at_stop": 4.08,
+        "costs_at_target": 4.12,
+        "net_gain": 67.88,
+        "net_reward_risk": 1.69,
+        "setup": "orb",
+        "entry_time": "9:35 AM",
+        "flat_by": "15:15"
+      }
+    }
+  ]
+}

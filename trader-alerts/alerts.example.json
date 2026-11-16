@@ -1,0 +1,9 @@
+{
+  "rules": [
+    {"id": "opening-bell", "type": "opening_bell"},
+    {"id": "hcltech.ns-plan-stop", "symbol": "HCLTECH.NS", "type": "stop", "price": 1377.4, "note": "plan stop: opening-range midpoint", "date": "2026-11-13"},
+    {"id": "hcltech.ns-plan-target", "symbol": "HCLTECH.NS", "type": "target", "price": 1399.0, "note": "plan target: 2R (two times the risk)", "date": "2026-11-13"},
+    {"id": "hcltech.ns-flat-by", "symbol": "HCLTECH.NS", "type": "time", "at": "15:15", "label": "flat by 15:15, before the auto square-off", "date": "2026-11-13"},
+    {"id": "hcltech.ns-move-1", "symbol": "HCLTECH.NS", "type": "pct_move", "pct": 1}
+  ]
+}

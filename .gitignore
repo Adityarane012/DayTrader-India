@@ -1,0 +1,49 @@
+# Your own trading state: config, picks, plans, orders, prices, alerts, day notes.
+# Never commit it. trader-budget/config.example.json is the shareable example.
+trader/
+
+# Secrets. The Fyers token lives in ~/.day-trader-india/ (outside this folder);
+# these patterns catch an accident if one is ever copied in here.
+.env
+.env.*
+*.token
+*token*.json
+fyers-token.json
+fyers-calls.json
+fyers-calls.json.lock
+fyers-calls.json.tmp
+*.pem
+*.key
+
+# Claude Code: the installed copy of the skills is rebuilt from trader-*/ (see README),
+# agent worktrees are scratch copies, and settings.local.json is personal.
+.claude/skills/
+.claude/worktrees/
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Test and tool output
+*.log
+*.tmp
+coverage/
+.coverage
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# An empty file named "python" appeared once from a stray shell redirect
+/python
+CLAUDE.local.md
